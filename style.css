@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash|Quicksand:400,700);
-@use postcss-cssnext;
-
+/* F */
 :root {
   --color-primary: #de473c;
   --color-primary-dark: color(var(--color-primary) whiteness(20%));
@@ -59,7 +57,7 @@ body {
 .main-header__bottom {
   height: 50%;
   width: 1040%;
-  margin: 0 auto;
+  margin: 0 auto;                                                                                                                                                                                                 
   position: relative;
   transition: all 0.5s;
   overflow: hidden;

@@ -20,7 +20,7 @@
             <nav class="main-header__menu">
               <a href="">Home</a>
               <a href="">About</a>
-              <a href="">Blog</a>
+              <a href="">activiteiten</a>
               <a href="">Contact</a>
             </nav>
           </div>
@@ -38,7 +38,14 @@
 
 <img src="./imgs/—Pngtree—a man who is playing_5358859.png" alt="" id="foto1">
 
-
+<script>const header = document.getElementById('js-rotate');
+  const button = document.getElementById('js-menu-button');
+  const hamburger = document.getElementById('js-hamburger');
+  button.onclick = (e) => {
+    e.preventDefault;
+    header.classList.toggle('main-header--rotate');
+    hamburger.classList.toggle('menu-button__hb--is-active');
+  }</script>
 
 
 </body>

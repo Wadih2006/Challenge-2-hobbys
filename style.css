@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash|Quicksand:400,700);
-@use postcss-cssnext;
-
+/* F */
 :root {
-  --color-primary: #de473c;
+  --color-primary: #415eb4;
   --color-primary-dark: color(var(--color-primary) whiteness(20%));
   --color-body-bg: #F1F1F1;
   --bar-height: 9em;
@@ -10,9 +8,9 @@
 }
 
 body {
-  background-color: var(--color-body-bg);
+  padding: 0;
   font-size: 100%;
-  background-color: #3a5e7e;
+  background-color: #096cc4bd;
 }
 
 /** LAYOUT STYLES **/
@@ -59,7 +57,7 @@ body {
 .main-header__bottom {
   height: 50%;
   width: 1040%;
-  margin: 0 auto;
+  margin: 0 auto;                                                                                                                                                                                                 
   position: relative;
   transition: all 0.5s;
   overflow: hidden;
@@ -228,4 +226,13 @@ body {
   margin-left: 1100px;
   margin-top: 70px;
 }
-
+#foto2{
+  margin-top: 0px;
+  margin-left: -2px;
+}
+#s{
+  background-color: #ffffff;
+  margin: -5px;
+  padding: 25px;
+  margin-left: 0.3px;
+}

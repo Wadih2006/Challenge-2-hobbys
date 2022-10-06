@@ -16,6 +16,7 @@ body {
   padding: 0;
   font-size: 100%;
   background-color: #096cc4bd;
+
 }
 
 /** LAYOUT STYLES **/
@@ -311,4 +312,9 @@ to {
   border-radius: 20px;
   margin-left: 850px;
   margin-top: -250px;
+}
+#videogopro{
+  position: absolute;
+  z-index: -1;
+  width: 1895px;
 }

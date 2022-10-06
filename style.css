@@ -1,4 +1,9 @@
 /* F */
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --color-primary: #415eb4;
   --color-primary-dark: color(var(--color-primary) whiteness(20%));
@@ -16,7 +21,7 @@ body {
 /** LAYOUT STYLES **/
 
 #logo {
-  font-size: 2em;
+  font-size: 6em;
     height: 100%;
     line-height: 100%;
     margin-top: -45px;
@@ -58,7 +63,7 @@ body {
 .main-header__front,
 .main-header__bottom {
   height: 50%;
-  width: 1040%;
+  width: 850%;
   margin: 0 auto;                                                                                                                                                                                                 
   position: relative;
   transition: all 0.5s;
@@ -127,7 +132,7 @@ body {
   padding: 45px;
   perspective: 20em;
   perspective-origin: 50% 3em;
-  margin-left: 1670px;
+  margin-left: 1620px;
 }
 
 .menu-button:before {

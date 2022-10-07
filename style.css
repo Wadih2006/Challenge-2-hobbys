@@ -18,7 +18,11 @@ body {
   background-color: #096cc4bd;
 
 }
-
+#videogopro{
+  position: absolute;
+  z-index: -1;
+  width: 1922px;
+}
 /** LAYOUT STYLES **/
 
 #logo {
@@ -234,15 +238,15 @@ body {
 }
 #foto2{
   margin-top: 0px;
-  margin-left: -5px;
-  width: 1900px;
+  margin-left: 2px;
+  width: 1920px;
 }
 #Activiteiten{
   background-color: #ffffff;
   margin: -5px;
   padding: 25px;
   margin-left: -5px;
-  width: 1850px;
+  width: 1950px;
 } 
 
 
@@ -250,7 +254,7 @@ body {
 
 font-size: 60px;
 margin-left: 37%;
-margin-top: 100px;
+margin-top: 160px;
 /* changing color and colorchange speed */
 
 background-image:
@@ -281,7 +285,7 @@ to {
   border-radius: 40px;
   padding: 30px;
   margin: 160px;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-left: 190px;
   display: inline-block;
 }
@@ -313,8 +317,6 @@ to {
   margin-left: 850px;
   margin-top: -250px;
 }
-#videogopro{
-  position: absolute;
-  z-index: -1;
-  width: 1895px;
-}
+
+
+
